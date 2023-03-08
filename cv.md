@@ -10,50 +10,46 @@
 
 ## **About Me**
 
-#### Hi, I'm 35 years old.
-#### For me, the goal is to get the knowledge and skills that are enough to get a job. 
-#### I hope that my optimism, creativity and hard work will help me achieve it!
-
->*When it is obvious that the goals cannot be reached,*
->*don't adjust the goals, adjust the action steps.*
-\
->**_Confucius_**
+#### Hi, I'm Vadim.
+#### I'm interested in Frontend development.
+#### I always try to learn something new.
+#### Every day I get a new knowledge and look to the future with optimism.
+#### I'm very interested in the experience of working in a team on a real project.
+#### I study JavaScript from all possible sources of a modern.
+#### Finally, I believe that if you want something, take it and do it.
 
 ## **Education and courses**
 * **Belarusian State University**
   * [Faculty of Philosophy and Social Sciences](https://ffsn.bsu.by/en/home/)
-* **Belarusian State University** 
+* **Belarusian State University**
   * [Department of Management and Economics of Social Sphere](https://fsc.bsu.by/en/department-of-management-and-economics-of-social-sphere/)
-* **Software Development Academy in Warsaw** 
-  * ["Java from scratch" course](https://sdacademy.pl/kursy/java/)
-* **RS Schools Course «JavaScript/Front-end. Stage 0»**
-  * [in progress](https://rs.school/js-stage0/)
+* **Software Development Academy in Warsaw**
+  * ["Java from scratch" course](https://github.com/comtvset/sda/blob/main/certificate.pdf)
+* **RS Schools Course «JavaScript/Front-end. Stage 0. 2022»**
+  * [JS/FE PRE-SCHOOL 2022](https://https://app.rs.school/certificate/gao4wbsx)
+* **RS Schools Course «JavaScript/Front-end. 2023»**
+  * [in progress](https://rs.school/js/)
 
 ## **Skils**
 + **Java Core**
 + **HTML**
 + **Git**
-+ **Photoshop**
++ **CSS/SASS**
++ **JavaScript**
++ **Node.js**
++ **TypeScript**
 + **Illustrator**
 + **Premiere Pro**
 
 ## **Code Examples**
 ```
-public class MainWindow extends JFrame {
-    public MainWindow(){
-        setTitle("Snake");
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setSize(350,375);
-        setLocation(800,400);
-        add(new GameField());
-        setVisible(true);
-    }
-    public static void main(String[] args) {
-        MainWindow mw = new MainWindow();
-    }
-}
+playGame.addEventListener('click', () => {
+    greetings.classList.add('no-greetings');
+    game.classList.add('game');
+});
+
 ```
-[![GitHub](https://raw.githubusercontent.com/comtvset/logo/main/GitHub-Mark-32px.png)](https://github.com/comtvset/SnakeGame.git)
+[![GitHub](https://raw.githubusercontent.com/comtvset/logo/main/GitHub-Mark-32px.png)](https://github.com/comtvset/quizBird)
 
 ## **Language**
 
@@ -62,7 +58,7 @@ public class MainWindow extends JFrame {
 | Belarusian   | _B1/B2_      |
 | Russian      | _Native_     |
 | Polish       | _B1_         |
-| English      | _A1_         |
+| English      | _A2_         |
 
 *created with Markdown-format*
 [![created with Markdown-format](https://raw.githubusercontent.com/comtvset/logo/main/markdown_46x26.png)](https://en.wikipedia.org/wiki/Markdown)
