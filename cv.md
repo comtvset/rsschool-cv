@@ -26,7 +26,7 @@
 * **Software Development Academy in Warsaw**
   * ["Java from scratch" course](https://github.com/comtvset/sda/blob/main/certificate.pdf)
 * **RS Schools Course «JavaScript/Front-end. Stage 0. 2022»**
-  * [JS/FE PRE-SCHOOL 2022](https://https://app.rs.school/certificate/gao4wbsx)
+  * [JS/FE PRE-SCHOOL 2022](https://app.rs.school/certificate/gao4wbsx)
 * **RS Schools Course «JavaScript/Front-end. 2023»**
   * [in progress](https://rs.school/js/)
 
