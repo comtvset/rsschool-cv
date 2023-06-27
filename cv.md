@@ -12,11 +12,9 @@
 
 #### Hi, I'm Vadim.
 #### I'm interested in Frontend development.
-#### I always try to learn something new.
-#### Every day I get a new knowledge and look to the future with optimism.
 #### I'm very interested in the experience of working in a team on a real project.
-#### I study JavaScript from all possible sources of a modern.
-#### Finally, I believe that if you want something, take it and do it.
+#### I study JavaScript with help RSSchool and chatGPT. Also, I study English and Polish.
+#### Every day I get new knowledge and look to the future with optimism.
 
 ## **Education and courses**
 * **Belarusian State University**
