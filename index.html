@@ -11,7 +11,14 @@
     <title>Document</title>
 </head>
 <body>
-    <main class="container">
+    <header>
+        <nav>
+            <button onclick="downFunction()" id="myBtnDown" title="Go to down" style="display: block;">ᨆ</button>
+            <button onclick="upFunction()" id="myBtnUp" title="Go to up" style="display: none;">ᨈ</button>
+        </nav>
+
+    </header>
+    <main class="container" id="up">
         <section class="one">
             <img src="/assets/img/foto.jpg" alt="foto">foto</img>
         </section>
@@ -97,18 +104,39 @@
                 <img src="/assets/img/software-certificate.jpg" alt="certificate" class="certificate"></img>
             </div>
 
+            <h2>CODE EXAMPLES</h2>
+            <pre>
+                playGame.addEventListener('click', () => {
+                    greetings.classList.add('no-greetings');
+                    game.classList.add('game');
+                });
+            </pre>
+
+            <h2>PROJECTS</h2>
+            <h4 class="four-link">
+                <a href="https://rolling-scopes-school.github.io/comtvset-JSFE2022Q3/online-zoo/pages/main/index.html" target="_blank" rel="noopener">online-zoo</a>
+                <a href="https://rolling-scopes-school.github.io/comtvset-JSFE2022Q3/puzzle/" target="_blank" rel="noopener">puzzle</a>
+                <a href="https://rolling-scopes-school.github.io/comtvset-JSFE2023Q1/minesweeper/index.html" target="_blank" rel="noopener">minesweeper</a>
+                <a href="https://rolling-scopes-school.github.io/comtvset-JSFE2023Q1/shelter/pages/main/index.html" target="_blank" rel="noopener">shelter</a>
+            </h4>
+
             <h2>LINKS</h2>
             <h4 class="four-link">
                 <a href="https://www.linkedin.com/in/vadzim-tsikhaniuk-69643b155" target="_blank" rel="noopener">LinkedIn</a>
-                <a href="https://github.com/comtvset" target="_blank" rel="noopener">GitHub</a>
                 <a href="https://www.codewars.com/users/rsschool_270ce98126cef4fa" target="_blank" rel="noopener">Codewars</a>
             </h4>
 
         </section>
-
     </main>
-    <footer>
-
+    <footer id="down">
+        <h4 class="footer">
+            <a href="https://github.com/comtvset" target="_blank" rel="noopener">GitHub</a>
+            <span>2023</span>
+            <a href="https://rs.school/js/" target="_blank" rel="noopener">
+                <img src="/assets/img/rs_school_js.png" alt="rs_school" class="logo-size">
+            </a>
+        </h4>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
