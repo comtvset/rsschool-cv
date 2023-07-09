@@ -4,9 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600;700&family=Poppins:wght@200;300;400;800&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <p>Hi</p>
+    <header>
+        <nav>
+            <button onclick="downFunction()" id="myBtnDown" title="Go to down" style="display: block;">ᨆ</button>
+            <button onclick="upFunction()" id="myBtnUp" title="Go to up" style="display: none;">ᨈ</button>
+        </nav>
+
+    </header>
+    <main class="container" id="up">
+        <section class="one">
+            <img src="/assets/img/foto.jpg" alt="foto">foto</img>
+        </section>
+
+        <section class="two">
+            <h1>Vadzim<br>Tsikhaniuk</h1>
+            <h3>Junior front-end developer</h3>
+            <h2>ABOUT ME</h2>
+            <h4>I am interested in Frontend development. Every day I get
+                new knowledge and look to the future with optimism.
+                I am very interested in the experience of working in a
+                team on a real project.
+                I study JavaScript from all possible sources of a modern
+                format.
+            </h4>
+        </section>
+
+        <section class="three">
+            <h2>CONTACT</h2>
+            <h4>
+                <a href="tg://resolve?domain=pacific_wow">Telegram</a><br>
+                <a href="mailto:comtvset@gmail.com">Email: comtvset@gmail.com</a><br>
+                <a href="tel:+48 796 685 938">Tel: +48 796 685 938</a><br>
+                Discord: danarti (@comtvset)
+            </h4>
+
+            <h2>EDUCATION</h2>
+            <h5>COURSE</h5>
+            <h4>The Rolling Scopes School
+                <ul>
+                    <li>JS/FE PRE-SCHOOL (JAVASCRIPT)</li>
+                    <li>JAVASCRIPT/FRONT-END</li>
+                </ul>
+            </h4>
+
+            <h4>Software Development Academy
+                <ul>
+                    <li>Kurs "Java od podstaw"</li>
+                </ul>
+            </h4>
+
+            <h5>UNIVERSITY</h5>
+            <h4>Belarusian State University
+                <ul>
+                    <li>Faculty of Philosophy and Social Sciences</li>
+                </ul>
+                Belarusian State University
+                <ul>
+                    <li>Department of Management and<br>Economics of Social Sphere</li>
+                </ul>
+            </h4>
+
+            <h2>LANGUAGES</h2>
+            <h4>
+                <ul>
+                    <li>English - A2</li>
+                    <li>Polish - B2</li>
+                    <li>Belarusian - B1</li>
+                    <li>Ukranian - B1</li>
+                </ul>
+            </h4>
+        </section>
+
+        <section class="four">
+            <h2>LEARNING EXPERIENCE AND SKILLS</h2>
+
+            <h4>
+                <ul>
+                    <li>Experience working with GIT</li>
+                    <li>Knowledge of HTML</li>
+                    <li>Knowledge of CSS/Preprocessors. SASS<br>(flexbox/grid, adaptive, media queries)</li>
+                    <li>Experience working with FIGMA</li>
+                    <li>Knowledge of JavaScript (jQuery, DOM & Events)</li>
+                    <li>Knowledge of Node.js</li>
+                    <li>Practice in coding Codewars</li>
+                    <li>Practical check of tasks (Cross-Check: Review)</li>
+                </ul>
+            </h4>
+
+            <h2>CERTIFICATIONS</h2>
+            <div class="four-cert">
+                <img src="/assets/img/rss-certificate.jpg" alt="certificate" class="certificate"></img>
+                <img src="/assets/img/software-certificate.jpg" alt="certificate" class="certificate"></img>
+            </div>
+
+            <h2>CODE EXAMPLES</h2>
+            <pre>
+                playGame.addEventListener('click', () => {
+                    greetings.classList.add('no-greetings');
+                    game.classList.add('game');
+                });
+            </pre>
+
+            <h2>PROJECTS</h2>
+            <h4 class="four-link">
+                <a href="https://rolling-scopes-school.github.io/comtvset-JSFE2022Q3/online-zoo/pages/main/index.html" target="_blank" rel="noopener">online-zoo</a>
+                <a href="https://rolling-scopes-school.github.io/comtvset-JSFE2022Q3/puzzle/" target="_blank" rel="noopener">puzzle</a>
+                <a href="https://rolling-scopes-school.github.io/comtvset-JSFE2023Q1/minesweeper/index.html" target="_blank" rel="noopener">minesweeper</a>
+                <a href="https://rolling-scopes-school.github.io/comtvset-JSFE2023Q1/shelter/pages/main/index.html" target="_blank" rel="noopener">shelter</a>
+            </h4>
+
+            <h2>LINKS</h2>
+            <h4 class="four-link">
+                <a href="https://www.linkedin.com/in/vadzim-tsikhaniuk-69643b155" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://www.codewars.com/users/rsschool_270ce98126cef4fa" target="_blank" rel="noopener">Codewars</a>
+            </h4>
+
+        </section>
+    </main>
+    <footer id="down">
+        <h4 class="footer">
+            <a href="https://github.com/comtvset" target="_blank" rel="noopener">GitHub</a>
+            <span>2023</span>
+            <a href="https://rs.school/js/" target="_blank" rel="noopener">
+                <img src="/assets/img/rs_school_js.png" alt="rs_school" class="logo-size">
+            </a>
+        </h4>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
