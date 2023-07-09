@@ -1,5 +1,8 @@
+html {
+  background: rgb(70, 70, 70);
+}
+
 body {
-  color: #fdfcfc;
   margin: 0 auto;
   width: 1024px;
 }
@@ -25,22 +28,52 @@ img {
   color: #000000;
   width: 574px;
   height: 474px;
-  background: #9b9b9b;
+  background: rgb(221, 221, 221);
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 3rem;
+  letter-spacing: 0.05rem;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
 }
 
 h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
+  letter-spacing: 0.05rem;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.05rem;
 }
 
 .two h1, .two h3, .two h2, .two h4 {
-  margin: 20px;
+  margin: 30px 30px 10px 30px;
+}
+
+.two h4 {
+  line-height: 1.5;
 }
 
 
@@ -48,18 +81,55 @@ h3 {
   display: flex;
   flex-direction: column;
   color: #ffffff;
-  background: #686363;
+  background: rgb(50, 50, 50);
   width: 450px;
 }
 
-.three h1, .three h3, .three h2, .three h4, .three h5 {
-  margin: 20px;
+.three h3, .three h2, .three h4, .three h5 {
+  margin: 40px 30px 10px 30px;
+}
+
+.three h4 {
+  margin: 10px 30px 10px 30px;
+}
+
+.three h5 {
+  margin: 10px 30px 10px 30px;
 }
 
 .four {
   display: flex;
   flex-direction: column;
   color: #000000;
-  background: #585151;
+  background: #ffffff;
   width: 574px;
+}
+
+.four h2 {
+  margin: 40px 30px 10px 30px;
+}
+
+.four h4 {
+  margin: 10px 30px 10px 30px;
+  line-height: 1.5;
+}
+
+.four-cert {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.certificate {
+  width: 150px;
+}
+
+.four-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.four a {
+  color: #000000;
 }
