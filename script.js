@@ -17,5 +17,5 @@ function upFunction() {
 }
 
 function downFunction() {
-    document.documentElement.scrollTop += 1000;
+    document.documentElement.scrollTop += 10000;
 }
