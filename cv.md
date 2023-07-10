@@ -18,7 +18,7 @@
 
 ## **Education and courses**
 * **Belarusian State University**
-  * [Faculty of Philosophy and Social Sciences](https://ffsn.bsu.by/en/home/)
+  * [Faculty of Philosophy and Social Sciences](https://bsu.by/en/structure/faculties/fakultet-filosofii-i-sotsialnykh-nauk-d)
 * **Belarusian State University**
   * [Department of Management and Economics of Social Sphere](https://fsc.bsu.by/en/department-of-management-and-economics-of-social-sphere/)
 * **Software Development Academy in Warsaw**
