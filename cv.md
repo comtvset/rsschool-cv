@@ -3,7 +3,7 @@
 #### **Location:** Warszawa, Polska
 #### **Phone:** +48 796685938
 #### **E-mail:** comtvset@gmail.com
-#### **Discord:** Vadzim#4960
+#### **Discord:** danarti (@comtvset)
 [![LinkedIn**](https://raw.githubusercontent.com/comtvset/logo/main/LinkedIn_logo_95x23.png)](https://www.linkedin.com/in/vadzim-tsikhaniuk-69643b155/)
 \
 [![GitHub](https://raw.githubusercontent.com/comtvset/logo/main/GitHub_logo_63x17.png)](https://github.com/comtvset)
@@ -53,9 +53,9 @@ playGame.addEventListener('click', () => {
 
 | Language     | Level        |
 | ------------ | ------------ |
-| Belarusian   | _B1/B2_      |
-| Russian      | _Native_     |
-| Polish       | _B1_         |
+| Belarusian   | _B1_         |
+| Ukranian     | _B1_         |
+| Polish       | _B2_         |
 | English      | _A2_         |
 
 *created with Markdown-format*
