@@ -195,14 +195,14 @@ h5 {
     border: none;
     outline: none;
     background-color: transparent;
-    color: #ffae00a8;
+    color: #ffc400a8;
     cursor: pointer;
     font-size: 3rem;
     transition: all 0.5s ease 0s;
 }
 
 #myBtnDown:hover {
-    color: #fd3e0fc5;
+    color: #ff8800a8;
     transition: all 0.5s ease 0s;
 }
 
@@ -215,14 +215,14 @@ h5 {
     border: none;
     outline: none;
     background-color: transparent;
-    color: #ffae00a8;
+    color: #ffc400a8;
     cursor: pointer;
     font-size: 3rem;
     transition: all 0.5s ease 0s;
 }
 
 #myBtnUp:hover {
-    color: #fd3e0fc5;
+    color: #ff8800a8;
     transition: all 0.5s ease 0s;
 }
 
@@ -346,9 +346,11 @@ a:hover {
     #myBtnDown {
       left: 0px;
       top: 0px;
+      padding: 3px;
     }
 
     #myBtnUp {
       right: 0px;
+      padding: 3px;
     }
 }
