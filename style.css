@@ -174,6 +174,7 @@ h5 {
 .skills-link {
     display: flex;
     align-items: center;
+    padding: 20px 30px 20px 30px;
 }
 
 .column {
@@ -265,6 +266,15 @@ a:hover {
     visibility: visible;
 }
 
+.popup-close {
+    position: absolute;
+    left: 94vw;
+    top: 1vh;
+    color: #eba82bb4;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .popup-body {
     min-height: 100%;
     display: flex;
@@ -279,6 +289,12 @@ a:hover {
 .popup-link {
     z-index: 0;
     padding: 20px;
+}
+
+@media (max-width: 1024px) {
+    .popup-img {
+        width: 80%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -340,17 +356,17 @@ a:hover {
     }
 
     .popup-img {
-        width: 100%;
+        width: 95%;
     }
 
     #myBtnDown {
-      left: 0px;
-      top: 0px;
-      padding: 3px;
+        left: 0px;
+        top: 0px;
+        padding: 3px;
     }
 
     #myBtnUp {
-      right: 0px;
-      padding: 3px;
+        right: 0px;
+        padding: 3px;
     }
 }
