@@ -34,7 +34,7 @@ function bodyUnlock() {
 }
 
 for (let i = 0; i < popupLinks.length; i++) {
-    popupLinks[i].addEventListener('click', (event) => {
+    popupLinks[i].addEventListener('click', () => {
         popup.classList.toggle('open');
         const Img = popupLinks[i].children[0].src;
         popup.children[0].children[1].src = Img;
