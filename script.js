@@ -44,12 +44,19 @@ for (let i = 0; i < popupLinks.length; i++) {
     });
 }
 
+const cross = document.querySelector('.popup-close');
+
 function close() {
     popup.addEventListener('click', (event) => {
         if(event.target.classList.contains('popup-body')) {
             popup.classList.toggle('open')
             bodyUnlock();
         }
+    })
+    cross.addEventListener('click', (event) => {
+        popup.classList.toggle('open')
+            bodyUnlock();
+            console.log('CLICK')
     })
 }
 close();
