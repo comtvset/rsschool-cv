@@ -131,6 +131,31 @@ h5 {
     padding: 10px 30px 10px 30px;
 }
 
+.download {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    margin: 110px;
+    color: #ffffffad;
+}
+
+.download a {
+    padding: 0;
+    color: #ffffffad;
+    font-size: 50px;
+    transition: 0.3s;
+}
+
+.download a:hover {
+    color: #279eee;
+    transition: 0.3s;
+}
+
+.download h4 {
+    padding: 0;
+}
+
 /* SKILLS */
 .skills {
     display: flex;
@@ -185,6 +210,7 @@ h5 {
 
 .skills a {
     color: #000000;
+    padding-bottom: 10px;
 }
 
 #myBtnDown {
@@ -337,6 +363,7 @@ a:hover {
 
     .skills-link {
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     pre {
