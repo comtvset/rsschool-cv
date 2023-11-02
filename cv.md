@@ -1,6 +1,5 @@
 # **Vadzim Tsikhaniuk**
 ## **Contacts**
-#### **Location:** Warszawa, Polska
 #### **Phone:** +48 796685938
 #### **E-mail:** comtvset@gmail.com
 #### **Discord:** danarti (@comtvset)
@@ -56,7 +55,7 @@ function toBinary(n) {
 + [minesweeper](https://rolling-scopes-school.github.io/comtvset-JSFE2023Q1/minesweeper/index.html)
 + [songbird](https://rolling-scopes-school.github.io/comtvset-JSFE2022Q3/songBirds/#en)
 
-[![GitHub](https://raw.githubusercontent.com/comtvset/logo/main/GitHub-Mark-32px.png)](https://github.com/comtvset/quizBird)
+[![GitHub](https://raw.githubusercontent.com/comtvset/logo/main/GitHub-Mark-32px.png)](https://github.com/comtvset/)
 
 ## **Language**
 
