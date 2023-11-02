@@ -357,6 +357,11 @@ a:hover {
         width: 100%;
     }
 
+    .box-revers {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     .skills {
         width: 100%;
     }
