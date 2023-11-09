@@ -19,7 +19,7 @@
   * Department of Management and Economics of Social Sphere
 * **Software Development Academy in Warsaw**
   * [Kurs "Java od podstaw"](https://github.com/comtvset/sda/blob/main/certificate.pdf)
-* **RS Schools Course «JavaScript/Front-end. Stage 0. 2022»**
+* **RS Schools Course «JavaScript/Front-end. Stage 0. 2023»**
   * [JS/FE PRE-SCHOOL 2023](https://app.rs.school/certificate/938412tj)
 * **RS Schools Course «JavaScript/Front-end. 2023»**
   * [in progress](https://rs.school/js/)
