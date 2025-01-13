@@ -42,6 +42,48 @@ img {
     width: 100%;
 }
 
+/* PROJECTS */
+.project-container {
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.project-container:hover {
+    background-color: rgba(128, 128, 128, 0.068);
+    transition: 0.3s ease;
+}
+
+.project-container p {
+    margin: 8px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+}
+
+.project a {
+    padding: 0 !important;
+}
+
+.stack {
+    width: 22px;
+}
+
+.devices {
+    padding-left: 20px;
+}
+
+.device {
+    width: 16px;
+}
+
+small {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* ABOUT */
 .about {
     display: flex;
@@ -56,10 +98,14 @@ img {
 a {
     color: #ffffff;
     text-decoration: none;
-
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    transition: all 0.5s ease;
+    transition: 0.3s ease;
+}
+
+u {
+    color: #000000;
+    transition: 0.3s ease;
 }
 
 h1 {
@@ -142,18 +188,20 @@ h5 {
 
 .download a {
     padding: 0;
-    color: #ffffffad;
+    color: #ffffff3b;
     font-size: 50px;
     transition: 0.3s;
-}
-
-.download a:hover {
-    color: #279eee;
-    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
 }
 
 .download h4 {
     padding: 0;
+}
+
+.download span {
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 /* SKILLS */
@@ -188,12 +236,12 @@ h5 {
 .certificate {
     width: 150px;
     border: 1px solid rgb(201, 201, 201);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .certificate:hover {
     box-shadow: 0px 0px 67px -12px rgb(12, 12, 14);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .skills-link {
@@ -225,12 +273,12 @@ h5 {
     color: #ffc400a8;
     cursor: pointer;
     font-size: 3rem;
-    transition: all 0.5s ease 0s;
+    transition: 0.3s ease;
 }
 
 #myBtnDown:hover {
     color: #ff8800a8;
-    transition: all 0.5s ease 0s;
+    transition: all 0.3s ease;
 }
 
 #myBtnUp {
@@ -245,12 +293,12 @@ h5 {
     color: #ffc400a8;
     cursor: pointer;
     font-size: 3rem;
-    transition: all 0.5s ease 0s;
+    transition: 0.3s ease;
 }
 
 #myBtnUp:hover {
     color: #ff8800a8;
-    transition: all 0.5s ease 0s;
+    transition: 0.3s ease;
 }
 
 .footer {
@@ -270,9 +318,10 @@ span {
     color: #ffffff;
 }
 
-a:hover {
+a:hover,
+u:hover {
     color: #ee4f27;
-    transition: all 0.5s ease;
+    transition: 0.3s ease;
 }
 
 .popup {
@@ -284,7 +333,7 @@ a:hover {
     left: 0;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.5s ease 0s;
+    transition: 0.3s ease;
 }
 
 .popup.open {
@@ -402,3 +451,4 @@ a:hover {
         padding: 3px;
     }
 }
+
