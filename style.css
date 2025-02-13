@@ -84,6 +84,10 @@ small {
   font-family: 'Montserrat', sans-serif;
 }
 
+small li {
+  color: initial;
+}
+
 /* ABOUT */
 .about {
   display: flex;

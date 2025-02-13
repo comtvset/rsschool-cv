@@ -2,16 +2,16 @@
 
 ## **Contacts**
 
-**[Telegram](https://t.me/pacific_wow)**  
-**E-mail:** comtvset@gmail.com  
-**Phone:** +48 796685938  
+**[Telegram](https://t.me/pacific_wow)**
+**E-mail:** comtvset@gmail.com
+**Phone:** +48 796685938
 **Discord:** danarti (@comtvset)
 
 ## **About Me**
 
-**_Hi, I'm Vadzim._**  
-**_I'm passionate about Frontend development. I have had an exciting experience working on a study project as part of a team. I'm very grateful to our team for this opportunity!   
-Every day I strive to expand my knowledge and explore new aspects of Frontend development. Also, I'm learning English and Polish.  
+**_Hi, I'm Vadzim._**
+**_I'm passionate about Frontend development. I have had an exciting experience working on a study project as part of a team. I'm very grateful to our team for this opportunity!
+Every day I strive to expand my knowledge and explore new aspects of Frontend development. Also, I'm learning English and Polish.
 Currently, I'm starting a [new project](https://eatylist.netlify.app/)._**
 
 ## **Education and courses**
@@ -57,6 +57,7 @@ function toBinary(n) {
 ## **PROJECTS**
 
 - [Eatylist](https://eatylist.netlify.app/)
+- [File Manager](https://github.com/comtvset/node-file-manager/)
 - [APIQuest](https://leafy-halva-b233d7.netlify.app/)
 - [Forms](https://task-react-form.netlify.app/)
 - [SWAPI](https://task-app-state-management.netlify.app/?search=&page=1)
