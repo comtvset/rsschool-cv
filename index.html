@@ -139,6 +139,13 @@
                     <a href="./assets/files/CV.pdf" download="Vadzim_Tsikhaniuk_CV.pdf">📥<span>Download CV</span></a>
                 </div>
 
+                <!-- <div class="download">
+                    <a href="./assets/files/CV.pdf" download="Vadzim_Tsikhaniuk_CV.pdf"
+                        onclick="gtag('event', 'download_cv', { event_category: 'Downloads', event_label: 'Vadzim_Tsikhaniuk_CV.pdf' });">
+                        📥<span>Download CV</span>
+                    </a>
+                </div> -->
+
             </section>
 
             <section class="skills">
@@ -640,6 +647,35 @@
         gtag('js', new Date());
 
         gtag('config', 'G-013PL14WY9');
+
+
+        window.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('.download a')?.addEventListener('click', () => {
+                gtag('event', 'download_cv', {
+                    event_category: 'Downloads',
+                    event_label: 'Vadzim_Tsikhaniuk_CV.pdf'
+                });
+            });
+
+            document.addEventListener('click', (event) => {
+                if (typeof gtag !== 'function') return;
+
+                const target = event.target.closest('[data-trackable], a, button, [role="button"]');
+
+                if (!target) return;
+
+                const tagName = target.tagName;
+                const text = (target.innerText || target.alt || target.getAttribute('aria-label') || '').trim();
+                const id = target.id || '';
+                const href = target.getAttribute('href') || '';
+
+                gtag('event', 'click', {
+                    event_category: 'All Clicks',
+                    event_label: `${tagName}${id ? `#${id}` : ''}${text ? ` - ${text}` : ''}`,
+                    value: href ? href : undefined
+                });
+            });
+        });
     </script>
 </body>
 
