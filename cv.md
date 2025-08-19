@@ -56,6 +56,7 @@ function toBinary(n) {
 
 ## **PROJECTS**
 
+- [Chat‧Role](https://chat-role.netlify.app/)
 - [Eatylist](https://eatylist.netlify.app/)
 - [File Manager](https://github.com/comtvset/node-file-manager/)
 - [APIQuest](https://leafy-halva-b233d7.netlify.app/)
