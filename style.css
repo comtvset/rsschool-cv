@@ -181,6 +181,18 @@ h5 {
   padding: 10px 30px 10px 30px;
 }
 
+.contact h5 + h4 {
+  padding-top: 0;
+}
+
+.period {
+  display: block;
+  margin-top: 4px;
+  color: #ffffff8a;
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
 .download {
   display: flex;
   flex-direction: column;
